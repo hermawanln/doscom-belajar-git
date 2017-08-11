@@ -1,3 +1,38 @@
 Belajar Git bareng Doscom
 
-nambah joss
+cd di dalam folder git lalu, 
+- touch (nama file.ekstensi) = untuk menambah file
+- ls = melihat isi di dalam folder
+- gedit (nama file.ekstensi) = untuk membuka file
+- git status = untuk cek status git
+- .gitignore = untuk menyembunyikan file di local saja atau file yg tidak ingin di simpan di repo github (online)
+
+___________________________________DOKUMENTASI SALMAN____________________________________
+tahap2 menggunakan git
+1. istall git
+2. buat file dulu
+3. git init //menanam git
+4. git status //untuk cek status
+5. git add -nama file beserta ekstensi- //untuk menambahkan file di repo
+6. git commit -m "-isi pesan untuk commit" // -m digunakan untuk pesan commit pertama
+7. git log //untuk cek hasil commit
+
+==== jika ada perubahan file maka lakukan langkah dibawah ini ====
+
+8. git add lagi kayak langkah 5
+9. git commit -am "pesan commit berikutnya"
+
+==== ulangi langkah 8 dan 9 hingga goku berhasil mengumpulkan tuju bola dragon ball ====
+
+
+jarene iso ngelewati fase 8, bablas fase 8. jajal sek wae
+^ | ^ | ^
+ternyata bener. tanpa perlu melewati fase 8.
+__________________________________________________________________________________________
+
+Jika ingin nambah file lagi,
+1. touch (spasi) (nama file.ekstensi) 
+2. gedit (nama file.ekstensi)
+3. git add . = untuk track data yg ditambahkan
+4. git commit -m "deskripsi lengkap"
+5. git push origin master = untuk menambahkan file dari local ke github
